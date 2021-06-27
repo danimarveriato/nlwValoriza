@@ -1,2 +1,53 @@
-# nlwValoriza
-Aplicação Backend utilizando NodeJS na 6° edição da NLW da Rocketseat
+# NLW Valoriza
+Aplicação backend, onde você consegue elogiar um(a) colega por algo que ele(a) fez.
+
+
+## Tecnologias
+
+- NodeJS
+- Express
+- SQLite
+- JSON Web Tokens (JWT)
+
+
+## Funções
+- Cadastro de usuários
+
+- Cadastro de Tags (elogios possíveis)
+
+- Autenticação de usuário
+
+  - Gerar token JWT
+
+  - Validar usuário logado nas rotas necessárias
+
+- Listagem de usuários
+
+- Listagem de tags
+
+- Listagem de elogios por usuário 
+
+
+## Regras
+
+- Cadastro de usuário
+
+  [ x ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail
+
+  [ x ] Não é permitido cadastrar usuário sem e-mail
+
+- Cadastro de TAG
+
+  [ x ] Não é permitido cadastrar tag sem nome
+
+  [ x ] Não é permitido cadastrar mais de uma tag com o mesmo nome
+
+  [ x ] Não é permitido o cadastro por usuários que não sejam administradores
+
+- Cadastro de elogios
+
+  [ x ] Não é permitido um usuário cadastrar um elogio para si
+
+  [ x ] Não é permitido cadastrar elogios para usuários inválidos
+
+  [ x ] O usuário precisa estar autenticado na aplicação
